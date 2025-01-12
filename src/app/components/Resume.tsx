@@ -68,7 +68,7 @@ const Resume = () => {
           <h2 className="text-white text-lg font-bold mb-4 border-b-2 border-white inline-block">
             EDUCATION
           </h2>
-          <h3 className="text-white text-md">BS in Computer Science</h3>
+          <h3 className="text-white text-md">BSc in Computer Science</h3>
           <p className="text-gray-400 text-sm">Faculty of Natural Science</p>
           <p className="text-gray-500 text-xs mt-2">2021 - 2024 | Tirana, Albania</p>
         </div>
