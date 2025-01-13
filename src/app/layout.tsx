@@ -40,6 +40,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="https://png.pngtree.com/png-vector/20240908/ourmid/pngtree-divine-elegance-a-mythological-icon-png-image_13794311.png" />
+      </head>
       <body className={`${geistSans.className} ${geistMono.className} antialiased`}>
         {children}
       </body>

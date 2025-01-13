@@ -6,7 +6,8 @@ import Hobbies from '../data/hobbies';
 
 const Resume = () => {
   return (
-    <div className="resume-container grid grid-cols-2 gap-10 p-10">
+    <div className="resume-container grid grid-cols-1 md:grid-cols-2 gap-10 p-6 sm:p-10">
+      
       
       <div className="col-span-1">
         <div className="software-skills mb-10">
@@ -50,7 +51,8 @@ const Resume = () => {
         </div>
       </div>
 
-      <div className="col-span-1 ml-16">
+     
+      <div className="col-span-1">
         <div className="experience-section mb-14">
           <h2 className="text-white text-lg font-bold mb-6 border-b-2 border-white inline-block">
             EXPERIENCE
@@ -73,7 +75,8 @@ const Resume = () => {
           <p className="text-gray-500 text-xs mt-2">2021 - 2024 | Tirana, Albania</p>
         </div>
 
-        <div className="hobbies-section mt-14">
+  
+        <div className="hobbies-section order-first md:order-last col-span-1">
           <h2 className="text-white text-lg font-bold mb-4 border-b-2 border-white inline-block">
             HOBBIES
           </h2>
