@@ -2,7 +2,7 @@ import Projects from "../data/projects";
 
 export default function Portfolio() {
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center text-center px-4 bg-background text-foreground">
+    <section className="min-h-screen flex flex-col justify-center items-center text-center px-4 bg-background text-foreground mt-6 mb-6 sm:mt-8 sm:mb-8">
       <h1 className="text-5xl font-bold mb-12 border-b border-white inline-block">
         PROJECTS
       </h1>
@@ -27,14 +27,15 @@ export default function Portfolio() {
               {String(index + 1).padStart(2, "0")}
             </div>
 
-            <h2 className="text-2xl font-semibold text-white mb-4 mt-6">{project.name}</h2>
+            <h2 className="text-2xl font-semibold text-white mb-4 mt-6">
+              {project.name}
+            </h2>
 
             <p className="text-gray-400">{project.description}</p>
 
-          
             <a
-              href={project.link}  
-              target="_blank"  
+              href={project.link}
+              target="_blank"
               className="absolute bottom-2 right-2 text-[#d7bbfa] font-bold px-4 py-2 hover:text-[#6C3BAA] transition duration-300"
             >
               More
